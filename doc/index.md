@@ -1,8 +1,8 @@
-# tailwind_flutter — Documentation Index
+# tailwind_ui_flutter — Documentation Index
 
 > **v0.2.0** · Dart SDK `>=3.0.0 <4.0.0` · Flutter `>=3.10.0`
 
-`tailwind_flutter` brings the complete [Tailwind CSS v4](https://tailwindcss.com) design system into Flutter. Every color family, spacing step, typography token, shadow preset, and breakpoint is available as a compile-time constant — and every styling operation is available as a fluent Dart extension method on `Text` and `Widget`.
+`tailwind_ui_flutter` brings the complete [Tailwind CSS v4](https://tailwindcss.com) design system into Flutter. Every color family, spacing step, typography token, shadow preset, and breakpoint is available as a compile-time constant — and every styling operation is available as a fluent Dart extension method on `Text` and `Widget`.
 
 ---
 
@@ -54,7 +54,7 @@
 ## Quick Example
 
 ```dart
-import 'package:tailwind_flutter/tailwind_flutter.dart';
+import 'package:tailwind_ui_flutter/tailwind_ui_flutter.dart';
 
 // Wrap once at app root
 MaterialApp(
@@ -81,9 +81,9 @@ Text('Sign in')
 ## Architecture at a Glance
 
 ```
-tailwind_flutter/
+tailwind_ui_flutter/
 ├── lib/
-│   ├── tailwind_flutter.dart          ← single barrel export
+│   ├── tailwind_ui_flutter.dart          ← single barrel export
 │   └── src/
 │       ├── tokens/                    ← compile-time design constants
 │       │   ├── tw_colors.dart         (TwColor, TwColors)

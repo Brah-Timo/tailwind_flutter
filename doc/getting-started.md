@@ -1,6 +1,6 @@
 # Getting Started
 
-> **tailwind_flutter** v0.2.0 — Tailwind CSS design tokens and utility extensions for Flutter.
+> **tailwind_ui_flutter** v0.2.0 — Tailwind CSS design tokens and utility extensions for Flutter.
 
 ---
 
@@ -10,7 +10,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  tailwind_flutter: ^0.2.0
+  tailwind_ui_flutter: ^0.2.0
 ```
 
 Then fetch it:
@@ -33,7 +33,7 @@ flutter pub get
 A single barrel import exposes every public symbol:
 
 ```dart
-import 'package:tailwind_flutter/tailwind_flutter.dart';
+import 'package:tailwind_ui_flutter/tailwind_ui_flutter.dart';
 ```
 
 Everything lives under this one import — tokens, extensions, styles, and theme classes.
@@ -46,7 +46,7 @@ For simple projects you can use tokens and extensions directly with **no theme s
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:tailwind_flutter/tailwind_flutter.dart';
+import 'package:tailwind_ui_flutter/tailwind_ui_flutter.dart';
 
 class MyWidget extends StatelessWidget {
   @override
@@ -77,7 +77,7 @@ Wrap your app (or a subtree) with `TwTheme` to inject `TwThemeData` into the wid
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:tailwind_flutter/tailwind_flutter.dart';
+import 'package:tailwind_ui_flutter/tailwind_ui_flutter.dart';
 
 void main() => runApp(const MyApp());
 

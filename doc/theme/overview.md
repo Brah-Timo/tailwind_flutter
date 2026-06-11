@@ -259,7 +259,7 @@ TwThemeData(
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:tailwind_flutter/tailwind_flutter.dart';
+import 'package:tailwind_ui_flutter/tailwind_ui_flutter.dart';
 
 void main() => runApp(const MyApp());
 

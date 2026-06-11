@@ -1,5 +1,5 @@
-name: tailwind_flutter_example
-description: Full showcase for tailwind_flutter — tokens, extensions, styles, and theme.
+name: tailwind_ui_flutter_example
+description: Full showcase for tailwind_ui_flutter — tokens, extensions, styles, and theme.
 publish_to: none
 version: 1.0.0
 
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  tailwind_flutter:
+  tailwind_ui_flutter:
     path: ../
 
 dev_dependencies:

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tailwind_flutter/tailwind_flutter.dart';
+import 'package:tailwind_ui_flutter/tailwind_ui_flutter.dart';
 
 /// Page 3 — TwStyle: reusable styles, merge, dark mode variants.
 class StylesPage extends StatelessWidget {

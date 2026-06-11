@@ -34,7 +34,7 @@ enum TwVariant {
   /// ```
   ///
   /// ```dart
-  /// // tailwind_flutter
+  /// // tailwind_ui_flutter
   /// const TwStyle(
   ///   backgroundColor: Color(0xFFFFFFFF),        // bg-white
   ///   variants: {

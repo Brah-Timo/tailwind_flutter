@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tailwind_flutter/tailwind_flutter.dart';
+import 'package:tailwind_ui_flutter/tailwind_ui_flutter.dart';
 
 /// Displays a single Tailwind colour family as a horizontal swatch row
 /// with shades from 50 to 900.

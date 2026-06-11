@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tailwind_flutter/tailwind_flutter.dart';
+import 'package:tailwind_ui_flutter/tailwind_ui_flutter.dart';
 
 /// Page 2 — Live before/after comparisons for every extension category.
 class ExtensionsPage extends StatelessWidget {

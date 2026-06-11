@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tailwind_flutter/tailwind_flutter.dart';
+import 'package:tailwind_ui_flutter/tailwind_ui_flutter.dart';
 
 import 'pages/tokens_page.dart';
 import 'pages/extensions_page.dart';
@@ -29,7 +29,7 @@ class _TailwindFlutterAppState extends State<TailwindFlutterApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'tailwind_flutter showcase',
+      title: 'tailwind_ui_flutter showcase',
       debugShowCheckedModeBanner: false,
       themeMode: _themeMode,
       theme: ThemeData(

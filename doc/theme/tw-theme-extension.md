@@ -6,7 +6,7 @@
 
 ## Overview
 
-The `tw_theme_extension.dart` file provides four `ThemeExtension` subclasses that bridge tailwind_flutter tokens into Flutter's **native `ThemeData.extensions` system**.
+The `tw_theme_extension.dart` file provides four `ThemeExtension` subclasses that bridge tailwind_ui_flutter tokens into Flutter's **native `ThemeData.extensions` system**.
 
 Use this when:
 - Your codebase already uses `Theme.of(context)` heavily

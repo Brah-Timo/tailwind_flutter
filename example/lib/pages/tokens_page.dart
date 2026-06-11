@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tailwind_flutter/tailwind_flutter.dart';
+import 'package:tailwind_ui_flutter/tailwind_ui_flutter.dart';
 import '../widgets/color_swatch.dart';
 
 /// Page 1 — Design Tokens showcase.

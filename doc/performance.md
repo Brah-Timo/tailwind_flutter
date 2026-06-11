@@ -1,14 +1,14 @@
-# Performance Study — tailwind_flutter
+# Performance Study — tailwind_ui_flutter
 
 ## Zero Overhead by Design
 
-Every extension method in `tailwind_flutter` is syntactic sugar that produces
+Every extension method in `tailwind_ui_flutter` is syntactic sugar that produces
 the **exact same Flutter widget tree** as hand-written code.
 
 ### Example comparison
 
 ```dart
-// Using tailwind_flutter
+// Using tailwind_ui_flutter
 Text('Hello')
     .p(TwSpacing.s4)
     .bg(TwColors.white)

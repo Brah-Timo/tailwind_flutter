@@ -1,8 +1,8 @@
-# tailwind_flutter
+# tailwind_ui_flutter
 
 **Utility-first widgets for Flutter.** Stop nesting six widgets to style one card.
 
-[![pub package](https://img.shields.io/pub/v/tailwind_flutter.svg)](https://pub.dev/packages/tailwind_flutter)
+[![pub package](https://img.shields.io/pub/v/tailwind_ui_flutter.svg)](https://pub.dev/packages/tailwind_ui_flutter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Flutter](https://img.shields.io/badge/Flutter-≥3.10-02569B?logo=flutter)](https://flutter.dev)
 
@@ -64,7 +64,7 @@ Text('Hello')
 
 ```yaml
 dependencies:
-  tailwind_flutter: ^0.2.0
+  tailwind_ui_flutter: ^0.2.0
 ```
 
 ```bash
@@ -72,7 +72,7 @@ flutter pub get
 ```
 
 ```dart
-import 'package:tailwind_flutter/tailwind_flutter.dart';
+import 'package:tailwind_ui_flutter/tailwind_ui_flutter.dart';
 ```
 
 ---
@@ -81,7 +81,7 @@ import 'package:tailwind_flutter/tailwind_flutter.dart';
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:tailwind_flutter/tailwind_flutter.dart';
+import 'package:tailwind_ui_flutter/tailwind_ui_flutter.dart';
 
 void main() => runApp(const MyApp());
 
@@ -463,9 +463,9 @@ final primary = colors.primary.shade500;
 
 ---
 
-## Tailwind CSS → tailwind_flutter Cheatsheet
+## Tailwind CSS → tailwind_ui_flutter Cheatsheet
 
-| Tailwind CSS | tailwind_flutter |
+| Tailwind CSS | tailwind_ui_flutter |
 |---|---|
 | `bg-blue-500` | `.bg(TwColors.blue.shade500)` |
 | `p-4` | `.p(TwSpacing.s4)` |
@@ -493,9 +493,9 @@ final primary = colors.primary.shade500;
 ## Architecture
 
 ```
-tailwind_flutter/
+tailwind_ui_flutter/
 ├── lib/
-│   ├── tailwind_flutter.dart          ← Single import barrel
+│   ├── tailwind_ui_flutter.dart          ← Single import barrel
 │   └── src/
 │       ├── tokens/                    ← Design tokens (all const)
 │       │   ├── tw_colors.dart         ← 242 colors

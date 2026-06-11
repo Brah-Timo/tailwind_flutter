@@ -5,7 +5,7 @@ import '../tokens/tw_spacing.dart';
 import '../tokens/tw_radii.dart';
 import '../tokens/tw_shadows.dart';
 
-/// A [ThemeExtension] that exposes tailwind_flutter tokens directly inside
+/// A [ThemeExtension] that exposes tailwind_ui_flutter tokens directly inside
 /// Flutter's native [ThemeData].
 ///
 /// This allows you to use `Theme.of(context).extension<TwColorExtension>()`

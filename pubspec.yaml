@@ -1,4 +1,4 @@
-name: tailwind_flutter
+name: tailwind_ui_flutter
 description: >
   Tailwind CSS-inspired utility-first styling for Flutter with chainable widget extensions, Tailwind v4 colors, reusable styles, dark mode support, and zero dependencies.
 
