@@ -1,0 +1,31 @@
+name: tailwind_flutter
+description: >
+  Tailwind CSS-inspired utility-first styling for Flutter with chainable widget extensions, Tailwind v4 colors, reusable styles, dark mode support, and zero dependencies.
+
+version: 0.2.0
+homepage: https://github.com/Brah-Timo/tailwind_flutter
+repository: https://github.com/Brah-Timo/tailwind_flutter
+issue_tracker: https://github.com/Brah-Timo/tailwind_flutter/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+  
+topics:
+  - flutter
+  - dart
+  - tailwindcss
+  - tailwind
+  - ui
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  # Pure Dart library — no assets, no fonts bundled.
